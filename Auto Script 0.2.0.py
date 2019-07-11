@@ -2,6 +2,8 @@ import openpyxl, pyautogui
 from tkinter import filedialog, Tk
 from openpyxl import Workbook, load_workbook
 
+
+
 #Controls which column and row the script works from
 excelNameColumnLetter = 'A' #column letter to read AP names from
 excelNameRow = int('3')#Starting row in excel
